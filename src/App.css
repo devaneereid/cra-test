@@ -42,3 +42,53 @@ code:before,
 code:after {
   content: '\`';
 }
+body {
+  background: lavender;
+}
+.header {
+  background: thistle;
+  height: 15vh;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.content1, .content2, .content3, .content4 {
+  width: 45%;
+  margin: 15px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.border {
+  background: url('https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  height: 10vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.projects {
+  padding-top: 40px;
+  text-align: center;
+}
+.contact {
+  text-align: center;
+}
+
+.field {
+  margin: 20px;
+}
+
+
